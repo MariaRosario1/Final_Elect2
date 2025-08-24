@@ -21,6 +21,6 @@ jobs:
 
     - name: Build Docker image
       run: |
-        docker build -t ${{ secrets.DOCKER_USERNAME }}/final-elect2:latest .
-        docker push ${{ secrets.DOCKER_USERNAME }}/final-elect2:latest
+        docker build -t mym013/final-elect2:latest .
+        docker push mym013/final-elect2:latest
 
